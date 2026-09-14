@@ -140,7 +140,7 @@ export default function Usagers() {
       MONTH_NAMES.forEach(m => {
         const qty = Number(row.monthlyQty?.[m.key] || 0);
         totalQty += qty;
-        mensuel[m.key] = { previsionnel: tarif * qty, reel: 0 };
+        mensuel[m.key] = { quantite: qty, previsionnel: tarif * qty, reel: 0 };
       });
       return {
         annee: row.annee,
