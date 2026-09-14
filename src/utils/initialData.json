@@ -1,0 +1,3135 @@
+{
+  "initialBudget": 100000,
+  "initialPicklists": {
+    "specialites": [
+      "Arthérapie",
+      "Ergothérapie",
+      "Psychiatrie",
+      "Psychologie",
+      "Éducateur spécialisé"
+    ],
+    "professionnels": [
+      "Association AMMETS",
+      "Barbara GOUVIER",
+      "Chiara LORENZINI",
+      "Cécile BOUQUIER",
+      "Dr. Jacon",
+      "Elodie JOFFRE",
+      "Jonathan REBOUL",
+      "Lisa LAGOURGUE INCHAUSPÉ",
+      "Lorenne COULEARD",
+      "Léa MAJERUS",
+      "Manon Clavelin",
+      "Maylis FOURMY",
+      "Mélanie CARLIER",
+      "Non assigné",
+      "Patrice CAMONTES",
+      "Pauline DUFOUR JUBRANT",
+      "Sarah Bousquer"
+    ],
+    "types": [
+      "Atelier",
+      "Bilan",
+      "Dépassement honoraires Psychiatrie",
+      "Rdv 1h",
+      "Rdv 45min",
+      "Réunion"
+    ]
+  },
+  "initialUsagers": [
+    {
+      "id": "u_1",
+      "nom": "BOUZERDA Kaïss",
+      "actif": true,
+      "prestations": [
+        {
+          "id": "p_1",
+          "type": "Réunion",
+          "specialite": "Éducateur spécialisé",
+          "professionnel": "Association AMMETS",
+          "tarif": 35.0,
+          "quantite": 4,
+          "coutAnnuel": 140.0,
+          "coutReel": 0.0,
+          "notes": "4 réunions",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 35.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 35.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 35.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 35.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_2",
+          "type": "Réunion",
+          "specialite": "Psychologie",
+          "professionnel": "Patrice CAMONTES",
+          "tarif": 60.0,
+          "quantite": 2,
+          "coutAnnuel": 120.0,
+          "coutReel": 0.0,
+          "notes": "2/an",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_3",
+          "type": "Rdv 45min",
+          "specialite": "Psychologie",
+          "professionnel": "Patrice CAMONTES",
+          "tarif": 60.0,
+          "quantite": 22,
+          "coutAnnuel": 1320.0,
+          "coutReel": 0.0,
+          "notes": "2x/mois",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_4",
+          "type": "Rdv 45min",
+          "specialite": "Éducateur spécialisé",
+          "professionnel": "Association AMMETS",
+          "tarif": 70.0,
+          "quantite": 44,
+          "coutAnnuel": 3080.0,
+          "coutReel": 0.0,
+          "notes": "2h/semaine",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 280.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 280.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 280.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 280.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 280.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 280.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 280.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 280.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 280.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 280.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 280.0,
+              "reel": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "u_2",
+      "nom": "ADJETE Mya",
+      "actif": true,
+      "prestations": [
+        {
+          "id": "p_5",
+          "type": "Réunion",
+          "specialite": "Éducateur spécialisé",
+          "professionnel": "Association AMMETS",
+          "tarif": 35.0,
+          "quantite": 2,
+          "coutAnnuel": 70.0,
+          "coutReel": 0.0,
+          "notes": "2 réunions",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 35.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 35.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_6",
+          "type": "Rdv 45min",
+          "specialite": "Éducateur spécialisé",
+          "professionnel": "Association AMMETS",
+          "tarif": 70.0,
+          "quantite": 32,
+          "coutAnnuel": 2240.0,
+          "coutReel": 245.0,
+          "notes": "1 séance de 2h/semaine",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 280.0,
+              "reel": 245.0
+            },
+            "juin": {
+              "previsionnel": 280.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 280.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 280.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 280.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 280.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 280.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 280.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_7",
+          "type": "Bilan",
+          "specialite": "Psychologie",
+          "professionnel": "Barbara GOUVIER",
+          "tarif": 275.0,
+          "quantite": 1,
+          "coutAnnuel": 275.0,
+          "coutReel": 275.0,
+          "notes": "1 bilan payé 50% soit 275€",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 275.0
+            },
+            "avril": {
+              "previsionnel": 275.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_8",
+          "type": "Réunion",
+          "specialite": "Ergothérapie",
+          "professionnel": "Elodie JOFFRE",
+          "tarif": 60.0,
+          "quantite": 3,
+          "coutAnnuel": 180.0,
+          "coutReel": 0.0,
+          "notes": "3 réunions/an",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_9",
+          "type": "Rdv 45min",
+          "specialite": "Ergothérapie",
+          "professionnel": "Elodie JOFFRE",
+          "tarif": 40.0,
+          "quantite": 40,
+          "coutAnnuel": 1600.0,
+          "coutReel": 0.0,
+          "notes": "1 séance/semaine de Mars à Décembre",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_10",
+          "type": "Bilan",
+          "specialite": "Ergothérapie",
+          "professionnel": "Elodie JOFFRE",
+          "tarif": 180.0,
+          "quantite": 1,
+          "coutAnnuel": 180.0,
+          "coutReel": 0.0,
+          "notes": "",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 180.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "u_3",
+      "nom": "BATJOM Alexandre",
+      "actif": true,
+      "prestations": [
+        {
+          "id": "p_11",
+          "type": "Réunion",
+          "specialite": "Éducateur spécialisé",
+          "professionnel": "Cécile BOUQUIER",
+          "tarif": 60.0,
+          "quantite": 3,
+          "coutAnnuel": 180.0,
+          "coutReel": 150.0,
+          "notes": "3 réunions",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 60.0,
+              "reel": 50.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 60.0,
+              "reel": 50.0
+            },
+            "mai": {
+              "previsionnel": 60.0,
+              "reel": 50.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_12",
+          "type": "Rdv 45min",
+          "specialite": "Éducateur spécialisé",
+          "professionnel": "Cécile BOUQUIER",
+          "tarif": 45.0,
+          "quantite": 65,
+          "coutAnnuel": 2925.0,
+          "coutReel": 3150.0,
+          "notes": "5h semaine",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 225.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 1012.5
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 450.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 1462.5
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "u_4",
+      "nom": "CORBEAU Sohan",
+      "actif": true,
+      "prestations": [
+        {
+          "id": "p_13",
+          "type": "Rdv 45min",
+          "specialite": "Ergothérapie",
+          "professionnel": "Pauline DUFOUR JUBRANT",
+          "tarif": 55.0,
+          "quantite": 24,
+          "coutAnnuel": 1320.0,
+          "coutReel": 165.0,
+          "notes": "1x/semaine pendant 6 mois",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 55.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 55.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 55.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_14",
+          "type": "Bilan",
+          "specialite": "Psychologie",
+          "professionnel": "Manon Clavelin",
+          "tarif": 450.0,
+          "quantite": 1,
+          "coutAnnuel": 450.0,
+          "coutReel": 450.0,
+          "notes": "1 bilan",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 450.0
+            },
+            "avril": {
+              "previsionnel": 450.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "u_5",
+      "nom": "AZUR ZUBIETA Ciara",
+      "actif": true,
+      "prestations": [
+        {
+          "id": "p_15",
+          "type": "Rdv 45min",
+          "specialite": "Éducateur spécialisé",
+          "professionnel": "Sarah Bousquer",
+          "tarif": 33.75,
+          "quantite": 160,
+          "coutAnnuel": 5400.0,
+          "coutReel": 1095.0,
+          "notes": "4h/semaine de Février à Décembre",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 160.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 455.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 480.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_16",
+          "type": "Réunion",
+          "specialite": "Éducateur spécialisé",
+          "professionnel": "Sarah Bousquer",
+          "tarif": 60.0,
+          "quantite": 10,
+          "coutAnnuel": 600.0,
+          "coutReel": 240.0,
+          "notes": "6 réunions réparties de Février à Décembre sauf Août",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 60.0,
+              "reel": 120.0
+            },
+            "avril": {
+              "previsionnel": 60.0,
+              "reel": 60.0
+            },
+            "mai": {
+              "previsionnel": 60.0,
+              "reel": 60.0
+            },
+            "juin": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_17",
+          "type": "Rdv 45min",
+          "specialite": "Ergothérapie",
+          "professionnel": "Non assigné",
+          "tarif": 55.0,
+          "quantite": 28,
+          "coutAnnuel": 1540.0,
+          "coutReel": 220.0,
+          "notes": "",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 110.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 55.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 55.0
+            },
+            "juin": {
+              "previsionnel": 220.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 220.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 220.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 220.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 220.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 220.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 220.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_18",
+          "type": "Bilan",
+          "specialite": "Ergothérapie",
+          "professionnel": "Non assigné",
+          "tarif": 240.0,
+          "quantite": 1,
+          "coutAnnuel": 240.0,
+          "coutReel": 0.0,
+          "notes": "",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 240.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "u_6",
+      "nom": "PASCUCCI VEROUL Giulia",
+      "actif": true,
+      "prestations": [
+        {
+          "id": "p_19",
+          "type": "Réunion",
+          "specialite": "Ergothérapie",
+          "professionnel": "Lisa LAGOURGUE INCHAUSPÉ",
+          "tarif": 60.0,
+          "quantite": 3,
+          "coutAnnuel": 180.0,
+          "coutReel": 0.0,
+          "notes": "3 reunions/an",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_20",
+          "type": "Rdv 45min",
+          "specialite": "Ergothérapie",
+          "professionnel": "Lisa LAGOURGUE INCHAUSPÉ",
+          "tarif": 40.0,
+          "quantite": 32,
+          "coutAnnuel": 1280.0,
+          "coutReel": 0.0,
+          "notes": "4 séances/mois",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_21",
+          "type": "Bilan",
+          "specialite": "Ergothérapie",
+          "professionnel": "Lisa LAGOURGUE INCHAUSPÉ",
+          "tarif": 180.0,
+          "quantite": 1,
+          "coutAnnuel": 180.0,
+          "coutReel": 0.0,
+          "notes": "1 bilan",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 180.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "u_7",
+      "nom": "COMTE GILBERT Zoé",
+      "actif": true,
+      "prestations": [
+        {
+          "id": "p_22",
+          "type": "Réunion",
+          "specialite": "Psychologie",
+          "professionnel": "Jonathan REBOUL",
+          "tarif": 60.0,
+          "quantite": 11,
+          "coutAnnuel": 660.0,
+          "coutReel": 180.0,
+          "notes": "1 réunion/mois",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 60.0,
+              "reel": 60.0
+            },
+            "avril": {
+              "previsionnel": 60.0,
+              "reel": 60.0
+            },
+            "mai": {
+              "previsionnel": 60.0,
+              "reel": 60.0
+            },
+            "juin": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_29",
+          "type": "Rdv 1h",
+          "specialite": "Psychologie",
+          "professionnel": "Jonathan REBOUL",
+          "tarif": 60.0,
+          "quantite": 44,
+          "coutAnnuel": 2640.0,
+          "coutReel": 1320.0,
+          "notes": "1 séance par semaine 60€/séance = 240€ par mois",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 240.0,
+              "reel": 300.0
+            },
+            "février": {
+              "previsionnel": 240.0,
+              "reel": 240.0
+            },
+            "mars": {
+              "previsionnel": 240.0,
+              "reel": 300.0
+            },
+            "avril": {
+              "previsionnel": 240.0,
+              "reel": 240.0
+            },
+            "mai": {
+              "previsionnel": 240.0,
+              "reel": 240.0
+            },
+            "juin": {
+              "previsionnel": 240.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 240.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 240.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 240.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 240.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 240.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_40",
+          "type": "Rdv 1h",
+          "specialite": "Éducateur spécialisé",
+          "professionnel": "Léa MAJERUS",
+          "tarif": 40.0,
+          "quantite": 192,
+          "coutAnnuel": 7680.0,
+          "coutReel": 1280.0,
+          "notes": "4h par semaine 40€/séance =160eur par semaine = 640 par mois",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 640.0,
+              "reel": 160.0
+            },
+            "février": {
+              "previsionnel": 640.0,
+              "reel": 240.0
+            },
+            "mars": {
+              "previsionnel": 640.0,
+              "reel": 280.0
+            },
+            "avril": {
+              "previsionnel": 640.0,
+              "reel": 320.0
+            },
+            "mai": {
+              "previsionnel": 640.0,
+              "reel": 280.0
+            },
+            "juin": {
+              "previsionnel": 640.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 640.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 640.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 640.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 640.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 640.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 640.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_41",
+          "type": "Réunion",
+          "specialite": "Éducateur spécialisé",
+          "professionnel": "Léa MAJERUS",
+          "tarif": 40.0,
+          "quantite": 11,
+          "coutAnnuel": 440.0,
+          "coutReel": 160.0,
+          "notes": "1 réunion par mois",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 40.0,
+              "reel": 40.0
+            },
+            "février": {
+              "previsionnel": 40.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 40.0,
+              "reel": 40.0
+            },
+            "avril": {
+              "previsionnel": 40.0,
+              "reel": 40.0
+            },
+            "mai": {
+              "previsionnel": 40.0,
+              "reel": 40.0
+            },
+            "juin": {
+              "previsionnel": 40.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 40.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 40.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 40.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 40.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 40.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_42",
+          "type": "Réunion",
+          "specialite": "Ergothérapie",
+          "professionnel": "Mélanie CARLIER",
+          "tarif": 60.0,
+          "quantite": 2,
+          "coutAnnuel": 120.0,
+          "coutReel": 60.0,
+          "notes": "2 réunions /an",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 60.0,
+              "reel": 60.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_43",
+          "type": "Rdv 45min",
+          "specialite": "Ergothérapie",
+          "professionnel": "Mélanie CARLIER",
+          "tarif": 40.0,
+          "quantite": 22,
+          "coutAnnuel": 880.0,
+          "coutReel": 120.0,
+          "notes": "40€x2=80€/moisx11=880€",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 80.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 80.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 80.0,
+              "reel": 80.0
+            },
+            "avril": {
+              "previsionnel": 80.0,
+              "reel": 40.0
+            },
+            "mai": {
+              "previsionnel": 80.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 80.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 80.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 80.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 80.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 80.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 80.0,
+              "reel": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "u_8",
+      "nom": "Jon BERNECKER",
+      "actif": true,
+      "prestations": [
+        {
+          "id": "p_23",
+          "type": "Réunion",
+          "specialite": "Éducateur spécialisé",
+          "professionnel": "Sarah Bousquer",
+          "tarif": 55.0,
+          "quantite": 4,
+          "coutAnnuel": 220.0,
+          "coutReel": 0.0,
+          "notes": "4 réunions",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 55.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 55.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 55.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 55.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_24",
+          "type": "Atelier",
+          "specialite": "Éducateur spécialisé",
+          "professionnel": "Sarah Bousquer",
+          "tarif": 270.0,
+          "quantite": 4,
+          "coutAnnuel": 1080.0,
+          "coutReel": 0.0,
+          "notes": "4 séances",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 270.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 270.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 270.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "u_9",
+      "nom": "Amaury PEUCH",
+      "actif": true,
+      "prestations": [
+        {
+          "id": "p_25",
+          "type": "Réunion",
+          "specialite": "Éducateur spécialisé",
+          "professionnel": "Sarah Bousquer",
+          "tarif": 55.0,
+          "quantite": 4,
+          "coutAnnuel": 220.0,
+          "coutReel": 60.0,
+          "notes": "",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 60.0
+            },
+            "mars": {
+              "previsionnel": 55.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 55.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 55.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 55.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_26",
+          "type": "Atelier",
+          "specialite": "Éducateur spécialisé",
+          "professionnel": "Sarah Bousquer",
+          "tarif": 270.0,
+          "quantite": 4,
+          "coutAnnuel": 1080.0,
+          "coutReel": 810.0,
+          "notes": "",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 270.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 540.0,
+              "reel": 270.0
+            },
+            "mars": {
+              "previsionnel": 270.0,
+              "reel": 270.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 270.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_30",
+          "type": "Réunion",
+          "specialite": "Ergothérapie",
+          "professionnel": "Lisa LAGOURGUE INCHAUSPÉ",
+          "tarif": 60.0,
+          "quantite": 2,
+          "coutAnnuel": 120.0,
+          "coutReel": 0.0,
+          "notes": "1 Reunion dans l'année 60€ la reunion",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_49",
+          "type": "Rdv 45min",
+          "specialite": "Ergothérapie",
+          "professionnel": "Lisa LAGOURGUE INCHAUSPÉ",
+          "tarif": 40.0,
+          "quantite": 44,
+          "coutAnnuel": 1760.0,
+          "coutReel": 600.0,
+          "notes": "1 séance toutes les semaines : 40€/séance",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 160.0,
+              "reel": 120.0
+            },
+            "février": {
+              "previsionnel": 160.0,
+              "reel": 80.0
+            },
+            "mars": {
+              "previsionnel": 160.0,
+              "reel": 120.0
+            },
+            "avril": {
+              "previsionnel": 160.0,
+              "reel": 160.0
+            },
+            "mai": {
+              "previsionnel": 160.0,
+              "reel": 120.0
+            },
+            "juin": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "u_10",
+      "nom": "SCARABIN GRIMAUD Nathan",
+      "actif": true,
+      "prestations": [
+        {
+          "id": "p_27",
+          "type": "Réunion",
+          "specialite": "Éducateur spécialisé",
+          "professionnel": "Sarah Bousquer",
+          "tarif": 55.0,
+          "quantite": 4,
+          "coutAnnuel": 220.0,
+          "coutReel": 60.0,
+          "notes": "",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 55.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 55.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 55.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 55.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 60.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_28",
+          "type": "Atelier",
+          "specialite": "Éducateur spécialisé",
+          "professionnel": "Sarah Bousquer",
+          "tarif": 270.0,
+          "quantite": 3,
+          "coutAnnuel": 810.0,
+          "coutReel": 1080.0,
+          "notes": "",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 270.0,
+              "reel": 270.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 270.0
+            },
+            "avril": {
+              "previsionnel": 270.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 270.0,
+              "reel": 540.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_44",
+          "type": "Rdv 45min",
+          "specialite": "Ergothérapie",
+          "professionnel": "Pauline DUFOUR JUBRANT",
+          "tarif": 55.0,
+          "quantite": 22,
+          "coutAnnuel": 1210.0,
+          "coutReel": 770.0,
+          "notes": "2/mois",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 220.0,
+              "reel": 110.0
+            },
+            "février": {
+              "previsionnel": 220.0,
+              "reel": 165.0
+            },
+            "mars": {
+              "previsionnel": 220.0,
+              "reel": 110.0
+            },
+            "avril": {
+              "previsionnel": 220.0,
+              "reel": 165.0
+            },
+            "mai": {
+              "previsionnel": 220.0,
+              "reel": 220.0
+            },
+            "juin": {
+              "previsionnel": 220.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 220.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 220.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 220.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 220.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 220.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_45",
+          "type": "Réunion",
+          "specialite": "Ergothérapie",
+          "professionnel": "Pauline DUFOUR JUBRANT",
+          "tarif": 60.0,
+          "quantite": 1,
+          "coutAnnuel": 60.0,
+          "coutReel": 0.0,
+          "notes": "1 Reunion dans l'année 60€ la reunion",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "u_11",
+      "nom": "DESTRIBATS Amaïa",
+      "actif": true,
+      "prestations": [
+        {
+          "id": "p_31",
+          "type": "Rdv 1h",
+          "specialite": "Ergothérapie",
+          "professionnel": "Mélanie CARLIER",
+          "tarif": 40.0,
+          "quantite": 8,
+          "coutAnnuel": 320.0,
+          "coutReel": 200.0,
+          "notes": "2 séances/mois : 40€/séance",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 160.0,
+              "reel": 40.0
+            },
+            "mars": {
+              "previsionnel": 160.0,
+              "reel": 120.0
+            },
+            "avril": {
+              "previsionnel": 160.0,
+              "reel": 40.0
+            },
+            "mai": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 160.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_32",
+          "type": "Réunion",
+          "specialite": "Ergothérapie",
+          "professionnel": "Mélanie CARLIER",
+          "tarif": 60.0,
+          "quantite": 1,
+          "coutAnnuel": 60.0,
+          "coutReel": 0.0,
+          "notes": "",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "u_12",
+      "nom": "Enzo LORCA",
+      "actif": true,
+      "prestations": [
+        {
+          "id": "p_33",
+          "type": "Réunion",
+          "specialite": "Ergothérapie",
+          "professionnel": "Maylis FOURMY",
+          "tarif": 60.0,
+          "quantite": 1,
+          "coutAnnuel": 60.0,
+          "coutReel": 0.0,
+          "notes": "",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_34",
+          "type": "Rdv 1h",
+          "specialite": "Ergothérapie",
+          "professionnel": "Maylis FOURMY",
+          "tarif": 45.0,
+          "quantite": 22,
+          "coutAnnuel": 990.0,
+          "coutReel": 700.0,
+          "notes": "",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 180.0,
+              "reel": 150.0
+            },
+            "février": {
+              "previsionnel": 180.0,
+              "reel": 100.0
+            },
+            "mars": {
+              "previsionnel": 180.0,
+              "reel": 250.0
+            },
+            "avril": {
+              "previsionnel": 180.0,
+              "reel": 100.0
+            },
+            "mai": {
+              "previsionnel": 180.0,
+              "reel": 100.0
+            },
+            "juin": {
+              "previsionnel": 180.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 180.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 180.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 180.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 180.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 180.0,
+              "reel": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "u_13",
+      "nom": "LARUE-HUMBLOT Gabrielle",
+      "actif": true,
+      "prestations": [
+        {
+          "id": "p_35",
+          "type": "Réunion",
+          "specialite": "Ergothérapie",
+          "professionnel": "Mélanie CARLIER",
+          "tarif": 60.0,
+          "quantite": 1,
+          "coutAnnuel": 60.0,
+          "coutReel": 0.0,
+          "notes": "",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_36",
+          "type": "Rdv 1h",
+          "specialite": "Ergothérapie",
+          "professionnel": "Mélanie CARLIER",
+          "tarif": 40.0,
+          "quantite": 22,
+          "coutAnnuel": 880.0,
+          "coutReel": 40.0,
+          "notes": "",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 80.0,
+              "reel": 40.0
+            },
+            "février": {
+              "previsionnel": 80.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 80.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 80.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 80.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 80.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 80.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 80.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 80.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 80.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 80.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_37",
+          "type": "Rdv 1h",
+          "specialite": "Psychologie",
+          "professionnel": "Patrice CAMONTES",
+          "tarif": 60.0,
+          "quantite": 22,
+          "coutAnnuel": 1320.0,
+          "coutReel": 120.0,
+          "notes": "",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 120.0,
+              "reel": 120.0
+            },
+            "février": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_38",
+          "type": "Réunion",
+          "specialite": "Psychologie",
+          "professionnel": "Patrice CAMONTES",
+          "tarif": 60.0,
+          "quantite": 1,
+          "coutAnnuel": 60.0,
+          "coutReel": 0.0,
+          "notes": "",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 60.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_39",
+          "type": "Dépassement honoraires Psychiatrie",
+          "specialite": "Psychiatrie",
+          "professionnel": "Dr. Jacon",
+          "tarif": 50.0,
+          "quantite": 11,
+          "coutAnnuel": 550.0,
+          "coutReel": 0.0,
+          "notes": "",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "u_14",
+      "nom": "Jacques LAVIELLE",
+      "actif": true,
+      "prestations": [
+        {
+          "id": "p_46",
+          "type": "Rdv 1h",
+          "specialite": "Psychologie",
+          "professionnel": "Chiara LORENZINI",
+          "tarif": 60.0,
+          "quantite": 16,
+          "coutAnnuel": 960.0,
+          "coutReel": 540.0,
+          "notes": "sur 8 mois",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 120.0,
+              "reel": 120.0
+            },
+            "février": {
+              "previsionnel": 120.0,
+              "reel": 180.0
+            },
+            "mars": {
+              "previsionnel": 120.0,
+              "reel": 120.0
+            },
+            "avril": {
+              "previsionnel": 120.0,
+              "reel": 120.0
+            },
+            "mai": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 120.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "u_15",
+      "nom": "Clément MARIN",
+      "actif": true,
+      "prestations": [
+        {
+          "id": "p_47",
+          "type": "Rdv 1h",
+          "specialite": "Arthérapie",
+          "professionnel": "Lorenne COULEARD",
+          "tarif": 50.0,
+          "quantite": 11,
+          "coutAnnuel": 550.0,
+          "coutReel": 50.0,
+          "notes": "Par mois, une séance prise en charge par Clément et une par Chrysalide",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 50.0,
+              "reel": 50.0
+            },
+            "février": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            }
+          }
+        },
+        {
+          "id": "p_48",
+          "type": "Réunion",
+          "specialite": "Arthérapie",
+          "professionnel": "Lorenne COULEARD",
+          "tarif": 50.0,
+          "quantite": 1,
+          "coutAnnuel": 50.0,
+          "coutReel": 0.0,
+          "notes": "",
+          "mensuel": {
+            "janvier": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "février": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mars": {
+              "previsionnel": 50.0,
+              "reel": 0.0
+            },
+            "avril": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "mai": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juin": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "juillet": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "août": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "septembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "octobre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "novembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            },
+            "décembre": {
+              "previsionnel": 0.0,
+              "reel": 0.0
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
