@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { BudgetProvider } from './context/BudgetContext';
 import Layout from './components/Layout';
 import Dashboard from './pages/Dashboard';
@@ -10,7 +10,7 @@ import Admin from './pages/Admin';
 function App() {
   return (
     <BudgetProvider>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Dashboard />} />
@@ -19,7 +19,7 @@ function App() {
             <Route path="admin" element={<Admin />} />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </BudgetProvider>
   );
 }
